@@ -143,6 +143,18 @@ files = [
 pyserial = "*"
 
 [[package]]
+name = "board"
+version = "1.0"
+description = "Standard Board mechanism for Dojo tasks"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "board-1.0-py2.py3-none-any.whl", hash = "sha256:b97c986d0190a2a5181a7fe28959cd8515520b87f672796e21e1b0d32cc63e2f"},
+    {file = "board-1.0.tar.gz", hash = "sha256:cd718c3322a126d86455e24ae0cebb59a567cbdbaf03696391dccf88c8f456d6"},
+]
+
+[[package]]
 name = "pyftdi"
 version = "0.56.0"
 description = "FTDI device driver (pure Python)"
@@ -214,4 +226,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "8566973e97715d6783c6ed08d21f63ed36e6baf1246da333dc154554c6adc249"
+content-hash = "25dd6f1a81345e36b3e4b718b181a444e12d736968b3612ee13e852f6b44b8a0"

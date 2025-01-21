@@ -9,6 +9,7 @@ packages = [{include = "ba_al"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 adafruit-circuitpython-dht = "^4.0.7"
+board = "^1.0"
 
 
 [build-system]
